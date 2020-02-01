@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b35eac02-aecf-42f5-a503-b7c9cc246ab4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X9A0QX1hfM4jWqVgmzZE9yZhiH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Python.test2">
+    <configuration name="QLearning_T" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QLearning_T.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="View" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maze/View.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maze/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maze/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.View" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.tkinter" />
+        <item itemvalue="Python.QLearning_T" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b35eac02-aecf-42f5-a503-b7c9cc246ab4" name="Default Changelist" comment="" />
+      <created>1580447712658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580447712658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1049" y="347" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580470199586">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="1049" y="347" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1009@0.23.1920.1009" timestamp="1580470199586" />
+    <state x="889" y="281" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580528776105">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="889" y="281" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1009@0.23.1920.1009" timestamp="1580528776105" />
+    <state x="716" y="355" key="FileChooserDialogImpl" timestamp="1580447888760">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="716" y="355" key="FileChooserDialogImpl/0.23.1920.1009@0.23.1920.1009" timestamp="1580447888760" />
+    <state width="1012" height="210" key="GridCell.Tab.0.bottom" timestamp="1580529260141">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state width="1012" height="210" key="GridCell.Tab.0.bottom/0.23.1920.1009@0.23.1920.1009" timestamp="1580529260141" />
+    <state width="1012" height="210" key="GridCell.Tab.0.center" timestamp="1580529260140">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state width="1012" height="210" key="GridCell.Tab.0.center/0.23.1920.1009@0.23.1920.1009" timestamp="1580529260140" />
+    <state width="1012" height="210" key="GridCell.Tab.0.left" timestamp="1580529260140">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state width="1012" height="210" key="GridCell.Tab.0.left/0.23.1920.1009@0.23.1920.1009" timestamp="1580529260140" />
+    <state width="1012" height="210" key="GridCell.Tab.0.right" timestamp="1580529260141">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state width="1012" height="210" key="GridCell.Tab.0.right/0.23.1920.1009@0.23.1920.1009" timestamp="1580529260141" />
+    <state width="1012" height="204" key="GridCell.Tab.1.bottom" timestamp="1580487562357">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state width="1012" height="204" key="GridCell.Tab.1.bottom/0.23.1920.1009@0.23.1920.1009" timestamp="1580487562357" />
+    <state width="1012" height="204" key="GridCell.Tab.1.center" timestamp="1580487562357">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state width="1012" height="204" key="GridCell.Tab.1.center/0.23.1920.1009@0.23.1920.1009" timestamp="1580487562357" />
+    <state width="1012" height="204" key="GridCell.Tab.1.left" timestamp="1580487562356">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state width="1012" height="204" key="GridCell.Tab.1.left/0.23.1920.1009@0.23.1920.1009" timestamp="1580487562356" />
+    <state width="1012" height="204" key="GridCell.Tab.1.right" timestamp="1580487562357">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state width="1012" height="204" key="GridCell.Tab.1.right/0.23.1920.1009@0.23.1920.1009" timestamp="1580487562357" />
+    <state x="14" y="190" key="SettingsEditor" timestamp="1580454658118">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="14" y="190" key="SettingsEditor/0.23.1920.1009@0.23.1920.1009" timestamp="1580454658118" />
+    <state x="639" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1580529310623">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="639" y="360" key="com.intellij.ide.util.TipDialog/0.23.1920.1009@0.23.1920.1009" timestamp="1580529310623" />
+    <state x="916" y="280" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580471550820">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="916" y="280" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1920.1009@0.23.1920.1009" timestamp="1580471550820" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/QLearning_T.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/QLearning_T.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
