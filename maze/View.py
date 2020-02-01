@@ -3,17 +3,17 @@ import time
 import tkinter as tk
 
 UNIT = 40
-MAZE_H = 7
-MAZE_W = 7
+MAZE_H = 4
+MAZE_W = 4
 
-HELL1_X = 4
-HELL1_Y = 3
+HELL1_X = 2
+HELL1_Y = 1
 
-HELL2_X = 3
+HELL2_X = 1
 HELL2_Y = 2
 
-PARA_X = 3
-PARA_Y = 5
+PARA_X = 2
+PARA_Y = 2
 
 
 class Maze(tk.Tk, object):
