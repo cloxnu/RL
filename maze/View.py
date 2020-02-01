@@ -3,8 +3,17 @@ import time
 import tkinter as tk
 
 UNIT = 40
-MAZE_H = 4
-MAZE_W = 4
+MAZE_H = 7
+MAZE_W = 7
+
+HELL1_X = 4
+HELL1_Y = 3
+
+HELL2_X = 3
+HELL2_Y = 2
+
+PARA_X = 3
+PARA_Y = 5
 
 
 class Maze(tk.Tk, object):
@@ -33,20 +42,20 @@ class Maze(tk.Tk, object):
         origin = np.array([20, 20])
 
         # hell
-        hell1_center = origin + np.array([UNIT * 2, UNIT])
+        hell1_center = origin + np.array([UNIT * HELL1_X, UNIT * HELL1_Y])
         self.hell1 = self.canvas.create_rectangle(
             hell1_center[0] - 15, hell1_center[1] - 15,
             hell1_center[0] + 15, hell1_center[1] + 15,
             fill='black')
         # hell
-        hell2_center = origin + np.array([UNIT, UNIT * 2])
+        hell2_center = origin + np.array([UNIT * HELL2_X, UNIT * HELL2_Y])
         self.hell2 = self.canvas.create_rectangle(
             hell2_center[0] - 15, hell2_center[1] - 15,
             hell2_center[0] + 15, hell2_center[1] + 15,
             fill='black')
 
         # create oval
-        oval_center = origin + UNIT * 2
+        oval_center = origin + np.array([UNIT * PARA_X, UNIT * PARA_Y])
         self.oval = self.canvas.create_oval(
             oval_center[0] - 15, oval_center[1] - 15,
             oval_center[0] + 15, oval_center[1] + 15,
