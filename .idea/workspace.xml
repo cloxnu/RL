@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b35eac02-aecf-42f5-a503-b7c9cc246ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze/QLearningTable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze/start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maze/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/maze/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maze/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maze/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/maze/start.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
