@@ -21,6 +21,7 @@ class Maze(tk.Tk, object):
         super(Maze, self).__init__()
         self.actions = ['up', 'down', 'left', 'right']
         self.num_action = len(self.actions)
+        self.num_feature = 2
         self.title('maze')
         self.geometry('{0}x{1}'.format(MAZE_H * UNIT, MAZE_W * UNIT))
         self.build_maze()
