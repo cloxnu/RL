@@ -21,6 +21,7 @@ class Maze(tk.Tk, object):
         super(Maze, self).__init__()
         self.actions = ['up', 'down', 'left', 'right']
         self.num_action = len(self.actions)
+        self.num_feature = 2
         self.title('maze')
         self.geometry('{0}x{1}'.format(MAZE_H * UNIT, MAZE_W * UNIT))
         self.build_maze()
@@ -80,7 +81,8 @@ class Maze(tk.Tk, object):
             origin[0] + 15, origin[1] + 15,
             fill='red')
         # return observation
-        return self.canvas.coords(self.rect)
+        # return self.canvas.coords(self.rect)
+        return (np.array(self.canvas.coords(self.rect)[:2]) - np.array(self.canvas.coords(self.oval)[:2])) / (MAZE_H * UNIT)
 
     def step(self, action):
         s = self.canvas.coords(self.rect)

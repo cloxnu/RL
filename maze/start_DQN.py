@@ -1,4 +1,4 @@
-from View import Maze
+from View_DQN import Maze
 from DQN import DQN
 
 

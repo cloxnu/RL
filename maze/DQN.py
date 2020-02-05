@@ -58,7 +58,8 @@ class DQN:
         if not hasattr(self, 'memory_counter'):
             self.memory_counter = 0
         transition = np.hstack((s, [a, r], s_))
-        index = self.memory[index, :] = transition
+        index = self.memory_counter % self.memory_size
+        self.memory[index, :] = transition
         self.memory_counter += 1
 
     def choose_action(self, observation):
