@@ -1,6 +1,7 @@
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models, optimizers
+import matplotlib.pyplot as plt
 
 
 class DQN:
@@ -89,7 +90,11 @@ class DQN:
         eval_act_index = batch_memory[:, self.num_features].astype(int)
         reward = batch_memory[:, self.num_features + 1]
         q_target[batch_index, eval_act_index] = reward + self.gamma * np.max(q_next, axis=1)
-        self.model2.fit(batch_memory[:, :self.num_features], q_target, epochs=10)
+
+        self.train_log = self.model2.fit(batch_memory[:, :self.num_features], q_target, epochs=10)
         self.epsilon = self.epsilon + self.epsilon_increment if self.epsilon < self.epsilon_greedy else self.epsilon_greedy
         self.learn_step_counter += 1
+
+    def plot_cost(self):
+        
 
