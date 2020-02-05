@@ -91,10 +91,22 @@ class DQN:
         reward = batch_memory[:, self.num_features + 1]
         q_target[batch_index, eval_act_index] = reward + self.gamma * np.max(q_next, axis=1)
 
-        self.train_log = self.model2.fit(batch_memory[:, :self.num_features], q_target, epochs=10)
+        self.model_log = self.model2.fit(batch_memory[:, :self.num_features], q_target, epochs=10)
         self.epsilon = self.epsilon + self.epsilon_increment if self.epsilon < self.epsilon_greedy else self.epsilon_greedy
         self.learn_step_counter += 1
 
     def plot_cost(self):
-        
+        acc = self.model_log.history['accuracy']
+        loss = self.model_log.history['loss']
+
+        plt.figure(figsize=(8, 8))
+        plt.subplot(2, 1, 1)
+        plt.plot(np.arange(len(acc)), acc, label='Training Accuracy')
+        plt.legend(loc='lower right')
+        plt.title('Accuracy')
+
+        plt.subplot(2, 1, 2)
+        plt.plot(np.arange(len(loss)), loss, label='Training Loss')
+        plt.legend(loc='upper right')
+        plt.title('Loss')
 
