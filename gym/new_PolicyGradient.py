@@ -90,6 +90,7 @@ class PG:
             erewards = []
 
             while True:
+                self.env.render()
                 x = observation.reshape(-1, 4)
                 prob = self.model.predict(x)[0][0]
                 # 根据随机概率选择action
@@ -163,5 +164,5 @@ class PG:
 
 if __name__ == '__main__':
     model = PG()
-    history = model.train(5000, 5)
+    history = model.train(200, 5)
     model.play()
