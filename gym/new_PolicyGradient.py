@@ -15,14 +15,15 @@ class PG:
             self.model.load_weights('pg.h5')
 
         self.env = gym.make('CartPole-v0')
+        # self.env = gym.make('MountainCar-v0')
         self.gamma = 0.95
 
     def build_model(self):
         """基本网络结构.
         """
         inputs = Input(shape=(4,), name='ob_input')
-        x = Dense(16, activation='relu')(inputs)
-        x = Dense(16, activation='relu')(x)
+        x = Dense(10, activation='relu')(inputs)
+        x = Dense(2, activation='relu')(x)
         x = Dense(1, activation='sigmoid')(x)
 
         model = Model(inputs=inputs, outputs=x)

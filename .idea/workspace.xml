@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b35eac02-aecf-42f5-a503-b7c9cc246ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gym/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym/action_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gym/action_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym/action_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gym/new_PolicyGradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym/new_PolicyGradient.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.action_test">
+  <component name="RunManager" selected="Python.new_PolicyGradient">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,9 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.new_PolicyGradient" />
         <item itemvalue="Python.action_test" />
         <item itemvalue="Python.1" />
-        <item itemvalue="Python.new_PolicyGradient" />
         <item itemvalue="Python.sketch1" />
         <item itemvalue="Python.test" />
       </list>
@@ -208,26 +207,26 @@
       <screen x="0" y="23" width="1920" height="1009" />
     </state>
     <state x="716" y="355" key="FileChooserDialogImpl/0.23.1920.1009@0.23.1920.1009" timestamp="1580447888760" />
-    <state width="1239" height="131" key="GridCell.Tab.0.bottom" timestamp="1581855052398">
+    <state width="1239" height="131" key="GridCell.Tab.0.bottom" timestamp="1581927960128">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state width="1063" height="2" key="GridCell.Tab.0.bottom/0.23.1920.1009@0.23.1920.1009" timestamp="1580746732386" />
-    <state width="1239" height="131" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1581855052398" />
-    <state width="1239" height="131" key="GridCell.Tab.0.center" timestamp="1581855052398">
+    <state width="1239" height="131" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1581927960128" />
+    <state width="1239" height="131" key="GridCell.Tab.0.center" timestamp="1581927960127">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state width="1063" height="2" key="GridCell.Tab.0.center/0.23.1920.1009@0.23.1920.1009" timestamp="1580746732385" />
-    <state width="1239" height="131" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1581855052398" />
-    <state width="1239" height="131" key="GridCell.Tab.0.left" timestamp="1581855052397">
+    <state width="1239" height="131" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1581927960127" />
+    <state width="1239" height="131" key="GridCell.Tab.0.left" timestamp="1581927960127">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state width="1063" height="2" key="GridCell.Tab.0.left/0.23.1920.1009@0.23.1920.1009" timestamp="1580746732384" />
-    <state width="1239" height="131" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1581855052397" />
-    <state width="1239" height="131" key="GridCell.Tab.0.right" timestamp="1581855052398">
+    <state width="1239" height="131" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1581927960127" />
+    <state width="1239" height="131" key="GridCell.Tab.0.right" timestamp="1581927960128">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state width="1063" height="2" key="GridCell.Tab.0.right/0.23.1920.1009@0.23.1920.1009" timestamp="1580746732385" />
-    <state width="1239" height="131" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1581855052398" />
+    <state width="1239" height="131" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1581927960128" />
     <state width="1012" height="204" key="GridCell.Tab.1.bottom" timestamp="1580487562357">
       <screen x="0" y="23" width="1920" height="1009" />
     </state>
@@ -248,11 +247,11 @@
       <screen x="0" y="23" width="1920" height="1009" />
     </state>
     <state x="14" y="190" key="SettingsEditor/0.23.1920.1009@0.23.1920.1009" timestamp="1580454658118" />
-    <state x="639" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1581826647160">
+    <state x="639" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1581923533221">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="639" y="360" key="com.intellij.ide.util.TipDialog/0.23.1920.1009@0.23.1920.1009" timestamp="1580873121593" />
-    <state x="639" y="360" key="com.intellij.ide.util.TipDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1581826647160" />
+    <state x="639" y="360" key="com.intellij.ide.util.TipDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1581923533221" />
     <state x="916" y="280" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580471550820">
       <screen x="0" y="23" width="1920" height="1009" />
     </state>

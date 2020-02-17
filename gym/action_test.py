@@ -1,7 +1,7 @@
 import numpy as np
 import gym
 
-env = gym.make('CartPole-v0')
+env = gym.make('MountainCar-v0') # CartPole-v0
 env.reset()
 
 action = 0
